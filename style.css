@@ -1,9 +1,8 @@
-/* تنسيق القسم الأول - الهيرو */
 .hero {
-    background-color: #3b5d50 !important; /* اللون الأخضر الغامق من الصورة */
+    background-color: #3b5d50 !important; 
     padding: 100px 0 150px 0;
     color: #ffffff;
-    min-height: 80vh; /* يضمن أن الخلفية تغطي مساحة كبيرة */
+    min-height: 80vh; 
     display: flex;
     align-items: center;
     position: relative;
@@ -13,18 +12,18 @@
     font-size: 54px;
     font-weight: 700;
     line-height: 1.2;
-    color: #ffffff !important; /* التأكيد على أن اللون أبيض ليظهر */
+    color: #ffffff !important; 
     margin-bottom: 25px;
 }
 
 .hero p {
-    color: rgba(255, 255, 255, 0.6); /* لون النص الوصفي شفاف قليلاً كما في الصورة */
+    color: rgba(255, 255, 255, 0.6); 
     font-size: 14px;
     margin-bottom: 40px;
     max-width: 400px;
 }
 
-/* تنسيق الأزرار داخل الهيرو */
+
 .btn-yellow {
     background-color: #f9bf29;
     border: 2px solid #f9bf29;
@@ -50,9 +49,9 @@
     color: #ffffff;
 }
 
-/* ضبط صورة الكنبة */
+
 .hero-img {
-    max-width: 120%; /* لجعلها كبيرة قليلاً كما في الصورة */
+    max-width: 120%; 
     position: relative;
     right: -50px;
     z-index: 2;
